@@ -1,0 +1,9 @@
+include ':app', ':Actividad1Manifest', ':Actividad1Código', ':appActivity1.1', ':appActivity1.2', ':appActivity2', ':appActivity3', ':appActivity4.1'
+rootProject.name='U6T10SensorBall'
+project(':Actividad1Manifest').projectDir = new File('appEjercicio1Manifest')
+project(':Actividad1Código').projectDir = new File('appEjercicio1Código')
+project(':appActivity1.1').projectDir = new File('app1.1')
+project(':appActivity1.2').projectDir = new File('app1.2')
+project(':appActivity2').projectDir = new File('app2')
+project(':appActivity3').projectDir = new File('app3')
+project(':appActivity4.1').projectDir = new File('app4.1')
